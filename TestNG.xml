@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="inetBankingV1">
+    
+    <listeners>
+        <listener class-name="com.inetbankingu.Utilities.Reporting" />
+    </listeners>
+    
+    <test name="BankingApp Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            
+        <class name="com.inetbankingt_cases.testCases.TC_LoginTest_001" /> 
+        <class name="com.inetbankingt_cases.testCases.TC_New_Customer_002" />
+         
+        </classes>
+    </test>
+    
+</suite>
